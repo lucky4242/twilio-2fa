@@ -37,7 +37,6 @@ This app enhances login security by requiring users to verify their identity thr
    ```bash
    git clone https://github.com/<your-username>/<your-repo>.git
    cd <your-repo>
-   ```bash
    composer install
    npm install && npm run build
    cp .env.example .env
