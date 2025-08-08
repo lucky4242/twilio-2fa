@@ -37,9 +37,10 @@ This app enhances login security by requiring users to verify their identity thr
    ```bash
    git clone https://github.com/<your-username>/<your-repo>.git
    cd <your-repo>
-composer install
-npm install && npm run build
-cp .env.example .env
+   ```bash
+   composer install
+   npm install && npm run build
+   cp .env.example .env
 APP_NAME="Laravel 2FA App"
 APP_URL=http://localhost
 
